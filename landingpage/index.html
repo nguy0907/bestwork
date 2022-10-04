@@ -1,0 +1,87 @@
+<!-- This is the html of the landing page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>Landing Page</title>
+</head>
+<body>
+    <!-- This section is where the header is going to be -->
+    <div class="wrapper">
+        <header class="site-header"> 
+            <div class="container">
+          <img class="logo" src="images/logo.png" alt="logo">  
+         <h1>Want to be your own boss?</h1>
+          </div>
+        </header>  
+        <main>
+            <section class="about"> 
+<p>Start today and make up to $30/hr driving your own vehicle with Dash!</p>
+            </section>
+          
+            <!-- This is the sign up form about applying for Dash -->
+            <section class="signupform">
+                <h2>Apply Now</h2>
+                <p class="info-below">Enter your info below.</p>
+                <form class="application" action="thanks.html" method="get">
+                    <div class="firstnamebox">
+                        <label for="firstname"></label>
+                        <input class="firstname" type="text" id="firstname" name="firstname" placeholder="First Name">
+                    </div>
+                    <div class="lastnamebox">
+                        <label for="lastname"></label>
+                        <input class="lastname" type="text" id="lastname" name="lastname" placeholder="Last Name">
+                    </div>
+                    <div class="phonenumberbox">
+                        <label for="phonenumber"></label>
+                        <input class="phonenumber" type="text" id="phonenumber" name="phonenumber" placeholder="Phone number">
+                    </div>
+                    <div class="emailaddressbox">
+                        <label for="emailaddress"></label>
+                        <input class="emailaddress" type="email" id="emailaddress" name="emailaddress" placeholder="Email Address">
+                    </div>
+
+                    <!-- This checkbox is an agreement with dash term -->
+                    <div class="agreement">
+                        <input type="checkbox" id="check" name="check">
+                        <label for="check">I agree with dash terms</label>
+                    </div>
+                    
+                    <button class="drivewithus">DRIVE WITH US</button>
+                    <p class="applied">Already applied? <a class="orangetext">Check your application status here</a></p>    
+                   
+              
+                </form>
+            </section>
+            <!-- This is the section where you put in the number -->
+            <section class="Calculation">
+                <p class="calculation-p1">See how much you can earn with Dash.</p>
+                <p class="calculation-p2">how many hours do you want to drive with us this week?</p>
+                <form action="calculatingform">
+                    <div class="hours">
+                        <label for="hours"></label>
+                        <input type="text" id="hours" name="hours" placeholder="Hours">
+                    </div>
+                    <div class="City">
+                        <label for="City"></label>
+                        <input type="text" id="City" name="City" placeholder="City">
+                    </div>
+                    <button class="calculatebutton">CALCULATE</button>
+                </form>
+            
+                <!-- This is the section where I have all the icons of the social media icons. -->
+            <div class="socialmedia">
+<img class="facebook" src="images/facebook.svg" alt="facebook">
+<img  class="instagram" src="images/instagram.svg" alt="instagram">
+<img class="twitter" src="images/twitter.svg" alt="twitter">
+<img class="linkedin" src="images/linkedin.svg" alt="linkedin">
+            </div>
+        </section>
+        </main>
+    </div>   
+</body>
+</html>
